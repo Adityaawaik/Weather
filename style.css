@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.entire-app,
+.date-para,
+.weather-summary-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-country-input {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.search-country-here {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  background: #42c6ff;
+  color: black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.search {
+  background-color: #00000042;
+  color: black;
+  padding: 0.2rem;
+  border: none;
+  height: 2.2rem;
+  width: 100px;
+  cursor: pointer;
+}
+
+.user-search-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.weather-app {
+  margin: 1rem 0;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  background-color: #42c6ff;
+}
+
+.country-name,
+.weather-felling,
+.country-temperature {
+  text-align: center;
+  margin: 1rem;
+}
+
+.country-temperature {
+  font-size: 5rem;
+  text-shadow: 2px 3px 5px white;
+}
+
+.today-date {
+  background-color: rgba(0, 0, 0, 0.614);
+  color: #42c6ff;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.weather-information {
+  margin-left: 1rem;
+}
+
+.fa-wind,
+.fa-droplet,
+.fa-eye {
+  color: #42c6ff;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.weather-summary {
+  display: flex;
+  justify-content: space-evenly;
+  background: #000000a4;
+  color: #42c6ff;
+  align-items: center;
+  width: 90%;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.wind-content,
+.humidity-content,
+.visibility-content {
+  text-align: center;
+}
+
+.country-weather-information {
+  height: 35rem;
+}
+
+.warning {
+  text-align: center;
+  margin: 0rem 0;
+}
+
+.search-condition {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (max-width: 550px) {
+  .weather-app {
+    width: 100%;
+    min-height: 46rem;
+    margin: 0;
+  }
+}
